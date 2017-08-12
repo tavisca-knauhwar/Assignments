@@ -1,0 +1,6 @@
+D:\GIT\Assignments\ToStringOverride\ToStringOverride\bin\Debug\ToStringOverride.exe.config
+D:\GIT\Assignments\ToStringOverride\ToStringOverride\bin\Debug\ToStringOverride.exe
+D:\GIT\Assignments\ToStringOverride\ToStringOverride\bin\Debug\ToStringOverride.pdb
+D:\GIT\Assignments\ToStringOverride\ToStringOverride\obj\Debug\ToStringOverride.csprojResolveAssemblyReference.cache
+D:\GIT\Assignments\ToStringOverride\ToStringOverride\obj\Debug\ToStringOverride.exe
+D:\GIT\Assignments\ToStringOverride\ToStringOverride\obj\Debug\ToStringOverride.pdb
