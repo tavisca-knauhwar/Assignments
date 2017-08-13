@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDictionary.Assignment", "ObjectDictionary.Assignment\ObjectDictionary.Assignment.csproj", "{A45D180E-20FE-43E5-BAA0-3770AFFCDEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDictionaryTests", "PersonDictionaryTestFixtures\PersonDictionaryTests.csproj", "{9468A1D0-6FA8-4CCD-90D4-9B12D8924154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45D180E-20FE-43E5-BAA0-3770AFFCDEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45D180E-20FE-43E5-BAA0-3770AFFCDEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45D180E-20FE-43E5-BAA0-3770AFFCDEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45D180E-20FE-43E5-BAA0-3770AFFCDEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9468A1D0-6FA8-4CCD-90D4-9B12D8924154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9468A1D0-6FA8-4CCD-90D4-9B12D8924154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9468A1D0-6FA8-4CCD-90D4-9B12D8924154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9468A1D0-6FA8-4CCD-90D4-9B12D8924154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
