@@ -23,6 +23,18 @@ namespace ObjectDictionary.Assignment
             return PersonDict;
         }
 
+        public Dictionary<Person, string> UpdatePerson(Person person,string quality)
+        {
+            PersonDict[person] = quality;
+            return PersonDict;
+        }
+
+        public Dictionary<Person, string> RemovePerson(Person person)
+        {
+            PersonDict.Remove(person);
+            return PersonDict;
+        }
+
         private bool IsExists(Person person, string quality)
         {
             foreach (var individual in PersonDict)

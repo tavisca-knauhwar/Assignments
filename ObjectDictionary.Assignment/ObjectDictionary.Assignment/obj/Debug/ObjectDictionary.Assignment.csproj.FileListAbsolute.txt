@@ -1,5 +1,0 @@
-D:\GIT\Assignments\ObjectDictionary.Assignment\ObjectDictionary.Assignment\bin\Debug\ObjectDictionary.Assignment.dll
-D:\GIT\Assignments\ObjectDictionary.Assignment\ObjectDictionary.Assignment\bin\Debug\ObjectDictionary.Assignment.pdb
-D:\GIT\Assignments\ObjectDictionary.Assignment\ObjectDictionary.Assignment\obj\Debug\ObjectDictionary.Assignment.csprojResolveAssemblyReference.cache
-D:\GIT\Assignments\ObjectDictionary.Assignment\ObjectDictionary.Assignment\obj\Debug\ObjectDictionary.Assignment.dll
-D:\GIT\Assignments\ObjectDictionary.Assignment\ObjectDictionary.Assignment\obj\Debug\ObjectDictionary.Assignment.pdb

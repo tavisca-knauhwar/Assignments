@@ -60,12 +60,8 @@ namespace ObjectDictionary.Assignment
             if (person == null)
                 return false;
 
-            if (this.GetHashCode() == person.GetHashCode())
-                return true;
-
             if (string.Equals(this.ToString(), person.ToString(), StringComparison.OrdinalIgnoreCase))
                 return true;
-
 
             return false;
         }
