@@ -1,8 +1,0 @@
-D:\GIT\Assignments\ObjectDictionary.Assignment\PersonDictionaryTestFixtures\bin\Debug\PersonDictionaryTestFixtures.dll
-D:\GIT\Assignments\ObjectDictionary.Assignment\PersonDictionaryTestFixtures\bin\Debug\PersonDictionaryTestFixtures.pdb
-D:\GIT\Assignments\ObjectDictionary.Assignment\PersonDictionaryTestFixtures\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\GIT\Assignments\ObjectDictionary.Assignment\PersonDictionaryTestFixtures\bin\Debug\ObjectDictionary.Assignment.dll
-D:\GIT\Assignments\ObjectDictionary.Assignment\PersonDictionaryTestFixtures\bin\Debug\ObjectDictionary.Assignment.pdb
-D:\GIT\Assignments\ObjectDictionary.Assignment\PersonDictionaryTestFixtures\obj\Debug\PersonDictionaryTests.csprojResolveAssemblyReference.cache
-D:\GIT\Assignments\ObjectDictionary.Assignment\PersonDictionaryTestFixtures\obj\Debug\PersonDictionaryTestFixtures.dll
-D:\GIT\Assignments\ObjectDictionary.Assignment\PersonDictionaryTestFixtures\obj\Debug\PersonDictionaryTestFixtures.pdb

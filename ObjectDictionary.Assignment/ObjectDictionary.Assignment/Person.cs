@@ -55,12 +55,11 @@ namespace ObjectDictionary.Assignment
             if (this.GetType() != obj.GetType())
                 return false;
 
-            var person = obj as Person;
 
-            if (person == null)
+            if (this.GetHashCode() != obj.GetHashCode())
                 return false;
 
-            if (string.Equals(this.ToString(), person.ToString(), StringComparison.OrdinalIgnoreCase))
+            if (string.Equals(this.ToString(), obj.ToString(), StringComparison.OrdinalIgnoreCase))
                 return true;
 
             return false;
