@@ -10,8 +10,6 @@ namespace Cache.Assignment
     {
         private static Dictionary<string, WeakReference> _cache;
 
-        int regenCount = 0;
-
         public Cache()
         {
             _cache = new Dictionary<string, WeakReference>();
@@ -20,11 +18,6 @@ namespace Cache.Assignment
         public int Count
         {
             get { return _cache.Count; }
-        }
-
-        public int RegenerationCount
-        {
-            get { return regenCount; }
         }
 
         public object Get(string name)
