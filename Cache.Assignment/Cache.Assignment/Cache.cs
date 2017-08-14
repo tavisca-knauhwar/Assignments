@@ -27,23 +27,26 @@ namespace Cache.Assignment
             get { return regenCount; }
         }
 
-        public Person Get(string name)
+        public object Get(string name)
         {
             if (_cache.ContainsKey(name) == false)
                 return null;
 
-            Person person = _cache[name].Target as Person;
-
-            return person;
+            return _cache[name].Target;
         }
 
-        public void Add(string key, Person person)
+        public void Add(string key, Object obj)
         {
-            if (string.IsNullOrEmpty(key) || person == null)
+            if (string.IsNullOrEmpty(key) || obj == null)
                 return;
-            _cache.Add(key, new WeakReference(person, false));
+            if (_cache.ContainsKey(key))
+                return;
+            _cache.Add(key, new WeakReference(obj, false));
         }
-
+        public void Update(string key, Object obj)
+        {
+            _cache[key] = new WeakReference(obj, false);
+        }
         public void Remove(string key)
         {
             _cache.Remove(key);

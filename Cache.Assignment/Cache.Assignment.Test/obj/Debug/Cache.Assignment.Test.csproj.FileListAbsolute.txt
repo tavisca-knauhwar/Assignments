@@ -1,8 +1,0 @@
-D:\Codes\GIT\tavisca-knauhwar\Assignments\Cache.Assignment\Cache.Assignment.Test\bin\Debug\Cache.Assignment.Test.dll
-D:\Codes\GIT\tavisca-knauhwar\Assignments\Cache.Assignment\Cache.Assignment.Test\bin\Debug\Cache.Assignment.Test.pdb
-D:\Codes\GIT\tavisca-knauhwar\Assignments\Cache.Assignment\Cache.Assignment.Test\bin\Debug\Cache.Assignment.dll
-D:\Codes\GIT\tavisca-knauhwar\Assignments\Cache.Assignment\Cache.Assignment.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\Codes\GIT\tavisca-knauhwar\Assignments\Cache.Assignment\Cache.Assignment.Test\bin\Debug\Cache.Assignment.pdb
-D:\Codes\GIT\tavisca-knauhwar\Assignments\Cache.Assignment\Cache.Assignment.Test\obj\Debug\Cache.Assignment.Test.csprojResolveAssemblyReference.cache
-D:\Codes\GIT\tavisca-knauhwar\Assignments\Cache.Assignment\Cache.Assignment.Test\obj\Debug\Cache.Assignment.Test.dll
-D:\Codes\GIT\tavisca-knauhwar\Assignments\Cache.Assignment\Cache.Assignment.Test\obj\Debug\Cache.Assignment.Test.pdb
