@@ -10,14 +10,49 @@ namespace Immutability.Assignment
 {
     public class Currency
     {
-        private readonly Dictionary<string, string> _countriesCurrency;
-        public  Dictionary<string, string> CountriesCurrency { get { return _countriesCurrency; } }
+        private readonly string _counrtyName;
 
-        public Currency()
+        private readonly string _countryCurrency;
+
+        private readonly string _currencyName;
+
+        public string CountryName
         {
-            _countriesCurrency = new Dictionary<string, string>();
-            var doc = XDocument.Load(@"D:\GIT\Assignments\Immutability.Assignment\Immutability.Assignment\CountiresCurrency.xml");
-            var countries = doc.Root.Elements().Select(x => x.Element("CtryNm"));
+            get
+            {
+                return _counrtyName;
+            }
+        }
+        public string CountryCurrency
+        {
+            get
+            {
+                return _countryCurrency;
+            }
+        }
+
+        public string CurrencyName
+        {
+
+            get
+            {
+                return _countryCurrency;
+            }
+        }
+
+        public Currency(string countryName, string countryCurrency, string currencyName)
+        {
+            _counrtyName = countryName;
+            _countryCurrency = countryCurrency;
+            _currencyName = currencyName;
+        }
+
+        public Currency ToUpper(Currency currency)
+        {
+            if (currency == null)
+                return null;
+
+            return new Currency(currency.CountryName.ToUpper(), currency.CountryCurrency.ToUpper(), currency.CurrencyName.ToUpper()); 
         }
 
     }
